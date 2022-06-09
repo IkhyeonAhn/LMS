@@ -40,7 +40,5 @@ public class boardController {
 	@PostMapping("/boardWrite")
 	public void boardWrite(HttpServletRequest rq) {
 		
-		String b_title = rq.getParameter("b_title");
-		System.out.println(b_title);
 	}
 }
